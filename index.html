@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT REGISTRATION FORM</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="font.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="https://ww2.freelogovectors.net/wp-content/uploads/2023/01/vit-logo-freelogovectors.net_.png?lossy=1&w=2560&ssl=1"
+            alt="VIT">
+
+        <div class="heading">
+            <span>VIT EVENT REGISTRATION</span>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="form-container">
+
+            <div class="form-head">
+                <h2>REGISTRATION FORM</h2>
+            </div>
+
+            <div class="form-content">
+                <form action="#" name="regForm" onsubmit="return validateForm();">
+
+                    <!--Name-->
+                    <div class="Name">
+                        <label for="stud-name">Name</label><br>
+                        <input type="text" name="stud-name" id="stud-name" placeholder="Enter your name">
+                        <span id="nameloc" class="alert"></span>
+                    </div>
+
+                    <!--Reg.No-->
+                    <div class="RegNo">
+                        <label for="stud-reg">Reg.No</label><br>
+                        <input type="text" name="stud-reg" id="stud-reg" placeholder="Enter your registration number">
+                        <span id="regloc" class="alert"></span>
+
+                    </div>
+
+                    <!--Mail-->
+                    <div class="Mail">
+                        <label for="stud-mail">VIT Mail ID</label><br>
+                        <input type="email" name="stud-mail" id="stud-mail" placeholder="Enter your VIT mail id only">
+                        <span id="mailloc" class="alert"></span>
+
+                    </div>
+
+                    <!--Mobile Number-->
+                    <div class="PhNo">
+                        <label for="stud-no">Mobile Number</label><br>
+                        <input type="tel" name="stud-no" id="stud-no" placeholder="Enter your 10-digit mobile number">
+                        <span id="numloc" class="alert"></span>
+
+                    </div>
+
+                    <!--Zip code-->
+                    <div class="ZipCode">
+                        <label for="zipcode">Zip Code</label><br>
+                        <input type="text" name="stud-zipcode" id="stud-zipcode"
+                            placeholder="Enter the 5-digit zipcode">
+                        <span id="codeloc" class="alert"></span>
+
+                    </div>
+
+                    <!--Password-->
+                    <div class="Password">
+                        <label for="password">Password</label><br>
+                        <input type="password" name="stud-password" id="stud-password" placeholder="Enter the password">
+                        <span id="passloc" class="alert"></span>
+                        <span id="passloc2" class="alert"></span>
+                        <span id="passloc3" class="alert"></span>
+
+                    </div>
+
+                    <!--Submit Button-->
+                    <div class="Submit">
+                        <button type="submit" value="Submit" id="submit_btn">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
