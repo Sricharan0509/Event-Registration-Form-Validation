@@ -125,3 +125,64 @@ button:hover {
     font-weight: 1000;
     letter-spacing:0.1rem;
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+        /* Adjust styles for the header on smaller screens */
+        padding: 0.5rem;
+    }
+
+    img {
+        /* Adjust styles for the logo/image on smaller screens */
+        height: 4rem;
+    }
+
+    .heading {
+        /* Adjust styles for the heading on smaller screens */
+        font-size: 2.5rem;
+        padding-right: 2rem;
+    }
+
+    .form-container {
+        /* Adjust styles for the form container on smaller screens */
+        width: 90%;
+        margin: 2rem auto;
+        padding: 0.25rem 1rem;
+    }
+
+    input {
+        /* Adjust input styles for better mobile experience */
+        width: 100%;
+    }
+}
+
+/* Media query for screens with a minimum width of 769px (typical for tablets and larger screens) */
+@media only screen and (min-width: 769px) {
+    header {
+        /* Adjust styles for the header on larger screens if needed */
+        padding: 1rem;
+    }
+
+    img {
+        /* Adjust styles for the logo/image on larger screens if needed */
+        height: 6rem;
+    }
+
+    .heading {
+        /* Adjust styles for the heading on larger screens if needed */
+        font-size: 3.5rem;
+        padding-right: 8rem;
+    }
+
+    .form-container {
+        /* Adjust styles for the form container on larger screens if needed */
+        width: fit-content;
+        margin: 8rem auto;
+        padding: 0.45rem 2rem;
+    }
+
+    input {
+        /* Adjust input styles for better desktop/tablet experience */
+        width: 90%;
+    }
+}
